@@ -453,20 +453,19 @@ body {
 .insta_button button {
   width: auto;
   min-width: 165px;
-  background-color: #aaa; 
-  border: 1.5px solid #222;
-  border-radius: 3px;
+  font-size: 16px;
+  padding: 5px;
+  background-color: #222;
+  color: #fff;
+  border: 2px solid #000;
+  border-radius: 5px;
   transition-duration: 0.2s;
-  cursor: pointer;
-  color: #222;
-  line-height: 30px;
-  font-size: 15px;
 }
 
 .insta_button button:hover {
-  background-color: #555;
-  color: #eee;
-  border: 1.5px solid #bbb;
+  background-color: #fff;
+  color: #222;
+  border: 2px solid #555;
 }
 
 
